@@ -10,39 +10,50 @@
   
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="http://use.edgefonts.net/fredericka-the-great;noticia-text.js"></script>
+  <script src="http://use.edgefonts.net/bitter;noticia-text.js"></script>
 
   
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/js.js"></script>
 
 </head>
 <body>
-
+	<div class="wrapper">
+		<div class="abs" id="sidebar">
+			<a href = "mailto:s.byrne2254@gmail.com"><img src="img/email-white.png"</a>
+			<a href = "http://www.twitter.com/s_byrne"><img src = "img/twitter-white.png"/></a>
+			<a href = "http://www.linkedin.com/profile/view?id=22029178"><img src="img/linkedin-white.png"/></a>
+			<a href = "http://www.github.com/bytheway875"><img src="img/github-white.png"/></a>
+				
+		</div>
 	<div class="row">
 		<div class="large-12 columns">
-				<h1 class = "name">Shannon@Work</h1>
+			<h1 class = "name">Shannon@Work</h1>
 			<div class = "social">
-				<a href = "www.twitter.com/s_byrne"><img src="img/twitter-white.png"
+				<a href = "http://www.twitter.com/s_byrne"><img src="img/twitter-white.png"
 					onmouseover="this.src='img/twitter.png'"
 					onmouseout="this.src='img/twitter-white.png'"/></a>
-				<a href = "www.twitter.com/s_byrne"><img src="img/linkedin-white.png"
+				<a href = "http://www.linkedin.com/profile/view?id=22029178"><img src="img/linkedin-white.png"
 					onmouseover="this.src='img/linkedin.png'"
 					onmouseout="this.src='img/linkedin-white.png'"/></a>
-				<a href = "www.github.com/bytheway875"><img src="img/github-white.png"
+				<a href = "http://www.github.com/bytheway875"><img src="img/github-white.png"
 					onmouseover="this.src='img/github.png'"
-					onmouseout="this.src='img/github-white.png'"/></a>
+					onmouseout="this.src='img/github-white.png'"/></a></br>
+				<p id = "email_center"style="text-align:center"><a href = "mailto:s.byrne2254@gmail.com" id = "email">s.byrne2254@gmail.com</a></p>
 			</div>
-			<hr />
+			<hr/>
 		</div>
 	</div>
-
 	<div class="row">
 		<div class="large-12 columns">
 			
 			<h3>About Me</h3>
-			<p> Chillwave cliche butcher helvetica Tonx banh mi try-hard keytar. Narwhal High Life Neutra put a bird on it, Terry Richardson art party photo booth disrupt. Readymade jean shorts pickled selvage, PBR pork belly organic tattooed raw denim sartorial viral meh pitchfork. Fingerstache Pinterest chambray craft beer ethical organic. Artisan put a bird on it ethical, skateboard scenester Portland mlkshk fanny pack quinoa swag tattooed post-ironic 90's occupy. Forage before they sold out craft beer, disrupt tattooed Vice gastropub hashtag cray dreamcatcher small batch pork belly. Tote bag art party ugh salvia roof party chillwave.
+			<p> 
+				Hi! I'm Shannon, a graduate of the first class of <span>The MakerSquare</span> web development bootcamp. In ten short weeks, I've learned languages and frameworks including <span>Ruby</span>, <span>Rails</span>, <span>Sinatra</span>, <span>Javascript</span>, <span>JQuery</span>, <span>HTML5</span>, and <span>CSS3</span>. But more importantly, I've learned how to think like a programmer: quickly, critically, and creatively.
+			</p>
+			<p> 
+				I'm currently looking for a position as a web developer or software engineer in <span>Austin</span>, <span>Houston</span>, or <span>New York City</span>, and I'm looking for a company that's a great fit for me culturally - I'd love to work on a <span>collaborative development team</span> that's active in the local tech community and promotes continuing education through conferences, meetups, and more. It doesn't matter to me what we're working on as long as a lot of <span>passion</span> goes into the product! Take a look at some of my recent projects and let me know if you think we might be a good fit together.
 			</p>
 		
 		</div>
@@ -90,42 +101,35 @@
 					</div>
 				</div>
 			</div>
-
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
-      </div>
 		</div>
 
 		<div class="large-4 columns">
-			<div class = "work_history">
-				<h4>Work History & Resume</h4>
-				<p id = "work">Since graduating from the University of Texas in 2010, I've worked in social media, content strategy, and marketing for companies including Bazaarvoice, Solvate, and Offers.com. Now I'm an aspiring Ruby on Rails developer.
-				</p>
-				<a class = "pdf" href="ShannonByrneResume.pdf">
-					Download My Resume
-					<img src="img/pdf-file.png"/> 
-				</a> 
-			</div>
 			<div class = "skills">
-				<h4>Other Resources</h4>
-				<p>Once you've exhausted the fun in this document, you should check out:</p>
+				<h4>Skills</h4>
+				<p id = "skills">I'm comfortable working the full stack, but I have a passion for backend Rails development. Technologies I'm comfortable with include:</p>
 				<ul class="disc">
-					<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-					<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-					<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+					<li>Ruby</li>
+					<li>Ruby on Rails</li>
+					<li>HTML5/JavaScript</li>
+					<li>MySql & Postgres</li>
+					<li>Test Driven Development</li>
+					<li>APIs: Facebook, Twitter, Instagram, and more</li>
 				</ul>
 			</div>
+			<div class = "work_history">
+				<h4>Work History & Resume</h4>
+				
+				<p id = "work">Since graduating from the <span>University of Texas</span> in 2010, I've worked in social media, content strategy, and marketing for companies including <span>Bazaarvoice</span>, <span>Solvate</span>, and <span>Offers.com</span>. Now I'm an aspiring <span>Ruby on Rails developer<span>.
+				</p>
+				<div id ="resume">
+				<a class = "pdf" href="ShannonByrneResume.pdf">
+					<img src="img/pdf-file.png"/>
+					Download My Resume 
+				</a> 
+				</div>
+				
+			</div>
+			
 		</div>
 	</div>
 
@@ -175,5 +179,6 @@
   <script>
     $(document).foundation();
   </script>
+  </div>
 </body>
 </html>

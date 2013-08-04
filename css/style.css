@@ -33,3 +33,78 @@ hr{
 #work {
 	margin-bottom:0;
 }
+
+span {
+	color:white;
+	font-style:bold;
+}
+
+.abs { position: absolute; }
+
+.fixed {
+position: fixed;
+top: 150px !important;}
+
+#sidebar {
+top: 150px;
+left: 0;
+height: 200px;
+width: 50px;
+background-color: #bde1ed;
+border-radius:3px;
+opacity:.5;}
+
+#sidebar img:hover{
+	background-color:black;
+}
+
+
+.wrapper {
+height: 1500px;
+padding: 20px;}
+
+#email {
+	font-size:14px;
+
+}
+
+#email_center{
+	line-height:1em;
+	margin-bottom:0;
+}
+p#work, p#skills{
+	font-size:1.25em;
+	margin-bottom:0;
+}
+
+a.pdf{
+	padding-top:.5em;
+	padding-bottom:.5em;
+	padding-left:3em;
+	padding-right:3em;
+	color:white;
+}
+
+
+#resume{
+	padding:5px;
+	/*height:90px;
+	width:85px;*/
+	text-align:center;
+	margin-top:5px;
+	border: 1px dashed #bde1ed;
+
+}
+
+.disc{
+	margin-left:2em;
+}
+
+#resume:hover {
+	background-color:black;
+	opacity:.2;
+}
+
+li {
+	color:white;
+}
