@@ -1,0 +1,35 @@
+.name {
+	margin-bottom:0;
+}
+
+h1{
+	line-height: 1.2em;
+}
+
+hr{
+	border: none;
+	border-top: solid 3px #bde1ed;
+	color: #5cb4d3;
+	background-color: #5cb4d3;
+}
+
+.name {
+	display:inline;
+}
+
+.social{
+	display:inline;
+	float:right;
+	margin-top:2em;
+}
+
+.pdf {
+}
+
+.skills {
+	clear:both;
+}
+
+#work {
+	margin-bottom:0;
+}
