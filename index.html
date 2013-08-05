@@ -16,6 +16,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/js.js"></script>
+  <script src="js/responsiveslides.js"></script>
 
 </head>
 <body>
@@ -59,53 +60,10 @@
 		</div>
 
 	</div>
-
 	<div class="row">
-		<div class="large-8 columns">
-			<h3>My Projects</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="large-4 columns">
+		<div class="large-6 columns">
 			<div class = "skills">
-				<h4>Skills</h4>
+				<h3>Skills</h3>
 				<p id = "skills">I'm comfortable working the full stack, but I have a passion for backend Rails development. Technologies I'm comfortable with include:</p>
 				<ul class="disc">
 					<li>Ruby</li>
@@ -116,8 +74,10 @@
 					<li>APIs: Facebook, Twitter, Instagram, and more</li>
 				</ul>
 			</div>
+		</div>
+		<div class="large-6 columns">
 			<div class = "work_history">
-				<h4>Work History & Resume</h4>
+				<h3>Work History & Resume</h3>
 				
 				<p id = "work">Since graduating from the <span>University of Texas</span> in 2010, I've worked in social media, content strategy, and marketing for companies including <span>Bazaarvoice</span>, <span>Solvate</span>, and <span>Offers.com</span>. Now I'm an aspiring <span>Ruby on Rails developer<span>.
 				</p>
@@ -129,9 +89,56 @@
 				</div>
 				
 			</div>
-			
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>My Projects</h2>
+
+			<!-- Grid Example -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="portfolio panel">
+						<div class="slide_nav"></div>
+						<ul class="rslides">
+  							<li><a href="http://gifatweet.herokuapp.com" target="_blank"><img src="img/giphy3.png" alt=""></a></li>
+  							<li><a href="http://www.github.com/bytheway875/biblio" target="_blank"><img src="img/biblio.png" alt=""></a></li>
+  							<li><a href="https://github.com/youssif/bathroom_stall" target="_blank"><img src="img/bathroom_stall.png" alt=""></a></li>
+  							<li><a href="http://www.github.com/bytheway875/hashtat" target="_blank"><img src="img/hashtats.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "large-12 columns">
+				<h2> Get In Touch </h2>
+				<p id = "contact_me"> Like what you see? <span>Contact me</span>, I'd love to chat. </p>
+				<div class = "social bottom">
+					<a href = "http://www.twitter.com/s_byrne"><img src="img/twitter-white.png"
+						onmouseover="this.src='img/twitter.png'"
+						onmouseout="this.src='img/twitter-white.png'"/></a>
+					<a href = "http://www.linkedin.com/profile/view?id=22029178"><img src="img/linkedin-white.png"
+						onmouseover="this.src='img/linkedin.png'"
+						onmouseout="this.src='img/linkedin-white.png'"/></a>
+					<a href = "http://www.github.com/bytheway875"><img src="img/github-white.png"
+						onmouseover="this.src='img/github.png'"
+						onmouseout="this.src='img/github-white.png'"/></a></br>
+				</div>
+				<p> 
+					<span>Email:</span><a href= "mailto:s.byrne2254@gmail.com"> s.byrne2254@gmail.com</a>
+					<br>
+					<span>Phone:</span> (832) 465-8840
+				</p>
+
+			</div>
+		</div>
+	</div>
+	
+</div>
 
   <script>
   document.write('<script src=' +

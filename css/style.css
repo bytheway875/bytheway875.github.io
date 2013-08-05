@@ -48,8 +48,8 @@ top: 150px !important;}
 #sidebar {
 top: 150px;
 left: 0;
-height: 200px;
-width: 50px;
+height: 240px;
+width: 60px;
 background-color: #bde1ed;
 border-radius:3px;
 opacity:.5;}
@@ -83,15 +83,16 @@ a.pdf{
 	padding-left:3em;
 	padding-right:3em;
 	color:white;
+	font-size:1.25em;
 }
 
 
 #resume{
-	padding:5px;
+	padding:10px;
 	/*height:90px;
 	width:85px;*/
 	text-align:center;
-	margin-top:5px;
+	margin-top:20px;
 	border: 1px dashed #bde1ed;
 
 }
@@ -107,4 +108,73 @@ a.pdf{
 
 li {
 	color:white;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+ a.rslides_nav.rslides1_nav.prev{
+ 	font-size:4em;
+ 	color:black;
+ 	opacity:.5;
+ 	
+ }
+
+ a.rslides_nav.rslides1_nav.next{
+ 	font-size:4em;
+ 	float:right;
+ 	color:black;
+ 	opacity:.5;
+ 	
+ }
+
+  a.rslides_nav.rslides1_nav.next:hover{
+  	opacity:1;
+  }
+
+  a.rslides_nav.rslides1_nav.prev:hover{
+  	opacity:1;
+  }
+
+#contact_me {
+	display:inline;
+}
+
+.bottom{
+	margin-top:0;
+}
+
+.portfolio{
+	max-width:700px;
+	margin:0 auto;
 }
