@@ -78,19 +78,21 @@ p#work, p#skills{
 }
 
 a.pdf{
-	padding-top:.5em;
+	/*padding-top:.5em;
 	padding-bottom:.5em;
 	padding-left:3em;
-	padding-right:3em;
+	padding-right:3em;*/
 	color:white;
 	font-size:1.25em;
+	
 }
 
 
 #resume{
 	padding:10px;
-	/*height:90px;
-	width:85px;*/
+	/*height:90px;*/
+	width:20em;
+	margin:0 auto;
 	text-align:center;
 	margin-top:30px;
 	border: 1px dashed #bde1ed;
@@ -192,3 +194,23 @@ li {
 	font-size:1.25em;
 }
 
+.panel {
+	margin-left:15px;
+
+}
+
+.portfolio_pic {
+	height:200px;
+}
+
+.portfolio_text {
+	font-size:1em;
+}
+
+.portfolio_link {
+	color: #25718d;
+}
+
+.portfolio_link:hover {
+	color: #35a2ca;
+}
