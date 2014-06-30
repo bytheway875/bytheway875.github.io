@@ -1,5 +1,5 @@
 .name {
-	margin-bottom:0;
+	margin-bottom: 0;
 }
 
 h1{
@@ -14,29 +14,29 @@ hr{
 }
 
 .name {
-	display:inline;
+	display: inline;
 }
 
 .social{
-	display:inline;
-	float:right;
-	margin-top:2em;
+	display: inline;
+	float: right;
+	margin-top: 2em;
 }
 
 .pdf {
 }
 
 .skills {
-	clear:both;
+	clear: both;
 }
 
 #work {
-	margin-bottom:0;
+	margin-bottom: 0;
 }
 
 span {
-	color:white;
-	font-style:bold;
+	color: white;
+	font-style: bold;
 }
 
 .abs { position: absolute; }
@@ -64,48 +64,44 @@ height: 1500px;
 padding: 20px;}
 
 #email {
-	font-size:14px;
+	font-size: 14px;
 
 }
 
 #email_center{
-	line-height:1em;
-	margin-bottom:0;
+	line-height: 1em;
+	margin-bottom: 0;
 }
 p#work, p#skills{
-	font-size:1.25em;
-	margin-bottom:0;
+	font-size: 1.25em;
+	margin-bottom: 0;
 }
 
 a.pdf{
-	/*padding-top:.5em;
-	padding-bottom:.5em;
-	padding-left:3em;
-	padding-right:3em;*/
-	color:white;
-	font-size:1.25em;
+	color: white;
+	font-size: 1.25em;
 	
 }
 
 
 #resume{
-	padding:10px;
+	padding: 10px;
 	/*height:90px;*/
-	width:20em;
-	margin:0 auto;
-	text-align:center;
-	margin-top:30px;
+	width: 20em;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
 	border: 1px dashed #bde1ed;
 
 }
 
 .disc{
-	margin-left:2em;
+	margin-left: 2em;
 }
 
 #resume:hover {
-	background-color:black;
-	opacity:.2;
+	background-color: black;
+	opacity: .2;
 }
 
 li {
@@ -146,65 +142,66 @@ li {
 
 
  a.rslides_nav.rslides1_nav.prev{
- 	font-size:4em;
- 	color:black;
- 	opacity:.5;
+ 	font-size: 4em;
+ 	color: black;
+ 	opacity: .5;
  	
  }
 
  a.rslides_nav.rslides1_nav.next{
- 	font-size:4em;
- 	float:right;
- 	color:black;
- 	opacity:.5;
+ 	font-size: 4em;
+ 	float: right;
+ 	color: black;
+ 	opacity: .5;
  	
  }
 
   a.rslides_nav.rslides1_nav.next:hover{
-  	opacity:1;
+  	opacity: 1;
   }
 
   a.rslides_nav.rslides1_nav.prev:hover{
-  	opacity:1;
+  	opacity: 1;
   }
 
 #contact_me {
-	display:inline;
+	display: inline;
 }
 
 .bottom{
-	margin-top:0;
+	margin-top: 0;
 }
 
 .portfolio{
-	max-width:700px;
-	margin:0 auto;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 .my_pic {
-	border-radius:200px;
-	float:right;
+	border-radius: 200px;
+	float: right;
 	height:20em;
-	border:5px #bde1ed solid;
-	opacity:.9;
+	border: 5px #bde1ed solid;
+	opacity: .9;
 }
 
 .code {
 	margin-left: 30px;
-	font-size:1.25em;
+	font-size: 1.25em;
 }
 
 .panel {
-	margin-left:15px;
+	margin-left: 15px;
 
 }
 
 .portfolio_pic {
-	height:200px;
+	height: 200px;
+    width: 375px;
 }
 
 .portfolio_text {
-	font-size:1em;
+	font-size: 1em;
 }
 
 .portfolio_link {

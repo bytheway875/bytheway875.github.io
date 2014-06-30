@@ -52,11 +52,19 @@
 			<h3>About Me</h3>
 			<img class ="my_pic" src = "img/shannon.jpeg" alt = "shannon byrne">
 			<p> 
-				Hi! I'm Shannon, a graduate of the first class of <span>The MakerSquare</span> web development bootcamp. In ten short weeks, I've learned languages and frameworks including <span>Ruby</span>, <span>Rails</span>, <span>Sinatra</span>, <span>Javascript</span>, <span>JQuery</span>, <span>HTML5</span>, and <span>CSS3</span>. But more importantly, I've learned how to think like a programmer: quickly, critically, and creatively.
+				Hi! I'm Shannon, a Ruby on Rails software engineer. I started programming when
+                I attended the first class of <span>The MakerSquare</span> web development bootcamp in June 2013. In ten short weeks, I learned languages and frameworks including <span>Ruby</span>, <span>Rails</span>, <span>Sinatra</span>, <span>Javascript</span>, <span>JQuery</span>, <span>HTML5</span>, and <span>CSS3</span>. But more importantly, I learned how to think like a programmer: quickly, critically, and creatively.
 			</p>
-			<p> 
-				I'm currently looking for a position as a web developer or software engineer in <span>Austin</span>, <span>Houston</span>, or <span>New York City</span>, and I'm looking for a company that's a great fit for me culturally - I'd love to work on a <span>collaborative development team</span> that's active in the local tech community and promotes continuing education through conferences, meetups, and more. It doesn't matter to me what we're working on as long as a lot of <span>passion</span> goes into the product! Take a look at some of my recent projects and let me know if you think we might be a good fit together.
-			</p>
+
+            <p> I'm currently a developer at <span>Communication Services for the Deaf</span>,
+                where I work on our online interpreting agency, Vineya. Recent features I've
+                worked on include transitioning our payment system from <span>Paypal to
+                    Braintree</span> and creating a <span>Rails API</span> for an Ember.JS and
+                mobile app.
+            </p>
+			<!--<p> -->
+				<!--I'm currently looking for a position as a web developer or software engineer in <span>Austin</span>, <span>Houston</span>, or <span>New York City</span>, and I'm looking for a company that's a great fit for me culturally - I'd love to work on a <span>collaborative development team</span> that's active in the local tech community and promotes continuing education through conferences, meetups, and more. It doesn't matter to me what we're working on as long as a lot of <span>passion</span> goes into the product! Take a look at some of my recent projects and let me know if you think we might be a good fit!-->
+			<!--</p>-->
 		
 		</div>
 
@@ -66,18 +74,23 @@
 		<div class="large-12 columns">
 			<h2>My Projects</h2>
 			<div class = "row">
-				<div class = "large-5 large-offset-1 columns panel">
-					<img class = "portfolio_pic" src = "img/gifatweet.jpg" alt= "">
-					<h4> GIF-A-Tweet </h4>
-					<p class = "portfolio_text"> GIF-A-Tweet:
-						My first native Ruby application, ported to Rails as my three-week checkpoint project at MakerSquare. Enter a twitter handle to get a random tweet from the user's timeline. Regular expressions eliminate stopwords, and two keywords are chosen to generate a random GIF using the Giphy API. <!-- Sometimes the results make no sense, but every once in a while, the GIF/Tweet combo is hilarious. -->
-					</p>
-					<a class = "portfolio_link" href = "http://gifatweet.herokuapp.com">Production</a><br>
-					<a class = "portfolio_link" href = "https://github.com/bytheway875/gifatweetonrails">Github</a>
-				</div>
-				<div class = "large-5 columns end panel">
+                <div class = "large-5 columns end panel">
+                    <img class = "portfolio_pic" src = "img/urlshortener.png" alt= "">
+                    <h4> URL Shortener </h4>
+                    <p class = "portfolio_text">
+                        A simple application that shortens URLs, allowing users to select a
+                        custom url extension or generating one for them. If the URL has already been
+                        shortened, the existing shortened URL will be returned instead.
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                    <a class = "portfolio_link" href = "http://qry.herokuapp.com">Production</a><br>
+                    <a class = "portfolio_link" href = "https://github.com/bytheway875/url_shortener">Github</a>
+                </div>
+				<div class = "large-5 large-offset-1 columns end panel">
 					<img class = "portfolio_pic" src = "img/hashtats.jpg" alt = "">
-					<h4> Hashtats</h4>
+					<h4> Hashtat</h4>
 					<p class = "portfolio_text"> 
 						A community for tattoo artists and enthusiasts to get inspiration (and find artists) for their next tattoo. This Ruby on Rails app offers integration with the Twitter API to allow users to tweet in photos of current tattoos. Users can add tattoos, Artists can make profiles, and everyone can like and comment on favorite tattoos.
 					</p>
@@ -85,25 +98,37 @@
 					<a class = "portfolio_link" href = "https://github.com/bytheway875/hashtat">Github</a>
 				</div>
 			</div>
+            <div class = "row">
+                <div class = "large-5 columns end panel">
+                    <img class = "portfolio_pic" src = "img/gifatweet.png" alt= "">
+                    <h4> GIF-A-Tweet </h4>
+                    <p class = "portfolio_text"> GIF-A-Tweet:
+                        The first Ruby application I built, ported to Rails as my three-week checkpoint project at MakerSquare. Enter a twitter handle to get a random tweet from the user's timeline. Regular expressions eliminate stopwords, and two keywords are chosen to generate a random GIF using the Giphy API. <!-- Sometimes the results make no sense, but every once in a while, the GIF/Tweet combo is hilarious. -->
+                    </p>
+                    <a class = "portfolio_link" href = "http://gifatweet.herokuapp.com">Production</a><br>
+                    <a class = "portfolio_link" href = "https://github.com/bytheway875/gifatweetonrails">Github</a>
+                </div>
+                <div class = "large-5 large-offset-1 end columns panel">
+                    <img class = "portfolio_pic" src = "img/biblio.jpg" alt= "">
+                    <h4> Biblio</h4>
+                    <p class = "portfolio_text">
+                        An exercise in creating a :has_many, :through ActiveRecord relationship. The home index shows all books added by all users (and populates information from the GoodReads API using the book's ISBN number). When a user destroys an entry from their own bookshelf, it persists in the books database and on other users' bookshelves.
+                    </p>
+                    <a class = "portfolio_link" href = "http://bibliograph.herokuapp.com">Production</a><br>
+                    <a class = "portfolio_link" href = "https://github.com/bytheway875/biblio">Github</a>
+                </div>
+            </div>
 			<div class = "row">
-				<div class = "large-5 columns large-offset-1  panel">
-					<img class = "portfolio_pic" src = "img/biblio.jpg" alt= "">
-					<h4> Biblio</h4>
-					<p class = "portfolio_text">
-						An exercise in creating a :has_many, :through ActiveRecord relationship. The home index shows all books added by all users (and populates information from the GoodReads API using the book's ISBN number). When a user destroys an entry from their own bookshelf, it persists in the books database and on other users' bookshelves.
-					</p>
-					<a class = "portfolio_link" href = "http://bibliograph.herokuapp.com">Production</a><br>
-					<a class = "portfolio_link" href = "https://github.com/bytheway875/biblio">Github</a>
-				</div>
-				<div class = "large-5 columns end panel">
-					<img class = "portfolio_pic" src = "img/bathroom_stall.jpg" alt= "">
-					<h4> Bathroom Stall </h4>
-					<p class = "portfolio_text">
-						Completed in 18 hours at a MakerSquare weekend Hackathon, Bathroom Stall allows for Facebook authorization and integrates with the Facebook API, letting users add a friends, acquaintances, or strangers by their Facebook URL. Public information is pulled from Facebook, then any users can write a review of the person's character.
-					</p>
-					<a class = "portfolio_link" href = "" disabled= true>Production</a><br>
-					<a class = "portfolio_link" href = "https://github.com/youssif/bathroom_stall">Github</a>
-				</div>
+
+				<!--<div class = "large-5 large-offset-1 columns end panel">-->
+					<!--<img class = "portfolio_pic" src = "img/bathroom_stall.jpg" alt= "">-->
+					<!--<h4> Bathroom Stall </h4>-->
+					<!--<p class = "portfolio_text">-->
+						<!--Completed in 18 hours at a MakerSquare weekend Hackathon, Bathroom Stall allows for Facebook authorization and integrates with the Facebook API, letting users add a friends, acquaintances, or strangers by their Facebook URL. Public information is pulled from Facebook, then any users can write a review of the person's character.-->
+					<!--</p>-->
+					<!--<a class = "portfolio_link" href = "" disabled= true>Production</a><br>-->
+					<!--<a class = "portfolio_link" href = "https://github.com/youssif/bathroom_stall">Github</a>-->
+				<!--</div>-->
 			</div>	
 		</div>
 	</div>
@@ -112,14 +137,14 @@
 		<div class="large-6 columns">
 			<div class = "skills">
 				<h3>Skills</h3>
-				<p id = "skills">I'm comfortable working the full stack, but I have a passion for backend Rails development. Technologies I'm comfortable with include:</p>
+				<p id = "skills">I'm comfortable working the full stack, but my focus is in backend Rails development. Technologies I'm comfortable with include:</p>
 				<ul class="disc">
 					<li>Ruby</li>
 					<li>Ruby on Rails</li>
 					<li>HTML5/CSS3</li>
-					<li>JavaScript/JQuery</li>
+					<li>JavaScript: JQuery, basic Ember.JS, basic Node.JS</li>
 					<li>MySql & Postgres</li>
-					<li>Test Driven Development with Rspec</li>
+					<li>Testing with RSpec, Capybara, and Cucumber</li>
 					<li>APIs: Facebook, Twitter, Instagram, and more</li>
 				</ul>
 			</div>
@@ -128,7 +153,7 @@
 			<div class = "work_history">
 				<h3>Work History & Resume</h3>
 				
-				<p id = "work">Since graduating from the <span>University of Texas</span> in 2010, I've worked in social media, content strategy, and marketing for companies including <span>Bazaarvoice</span>, <span>Solvate</span>, and <span>Offers.com</span>. Now I'm an aspiring <span>Ruby on Rails developer<span>.
+				<p id = "work">Since graduating from the <span>University of Texas</span> in 2010, I've worked in social media, content strategy, and marketing for companies including <span>Bazaarvoice</span>, <span>Solvate</span>, and <span>Offers.com</span>. I'm currently a <span> Ruby on Rails developer</span> at Communication Serives for the Deaf.
 				</p>
 				<div id ="resume">
 				<a class = "pdf" href="ByrneShannonResume.pdf">
@@ -140,10 +165,6 @@
 			</div>
 		</div>
 	</div>
-	
-
-	
-		
 
 	
 
@@ -156,12 +177,12 @@
 					<li><a href= "https://github.com/bytheway875/TodayInAustinonRails/blob/master/app/controllers/home_controller.rb">Instagram API with Error Rescue</a></li>
 				</ul>
 			</div>
-			<div class = "large-5 large-offset-1 columns">
-				<ul class = "code"> 
-					<li><a href="https://github.com/bytheway875/bathroom_stall/blob/master/app/models/victim.rb">URL Parsing with Facebook API</a></li>
-					<li><a href="https://github.com/bytheway875/gifatweetonrails/blob/master/app/controllers/home_controller.rb">Logic for GifATweet Twitter & Giphy Integration</li>
-			 	</ul>
-			</div>
+			<!--<div class = "large-5 large-offset-1 columns">-->
+				<!--<ul class = "code"> -->
+					<!--<li><a href="https://github.com/bytheway875/bathroom_stall/blob/master/app/models/victim.rb">URL Parsing with Facebook API</a></li>-->
+					<!--<li><a href="https://github.com/bytheway875/gifatweetonrails/blob/master/app/controllers/home_controller.rb">Logic for GifATweet Twitter & Giphy Integration</li>-->
+			 	<!--</ul>-->
+			<!--</div>-->
 
 		</div>
 	</div>
@@ -203,44 +224,43 @@
   
   <script src="js/foundation.min.js"></script>
   <!--
-  
+
   <script src="js/foundation/foundation.js"></script>
-  
+
   <script src="js/foundation/foundation.interchange.js"></script>
-  
+
   <script src="js/foundation/foundation.abide.js"></script>
-  
+
   <script src="js/foundation/foundation.dropdown.js"></script>
-  
+
   <script src="js/foundation/foundation.placeholder.js"></script>
-  
+
   <script src="js/foundation/foundation.forms.js"></script>
-  
+
   <script src="js/foundation/foundation.alerts.js"></script>
-  
+
   <script src="js/foundation/foundation.magellan.js"></script>
-  
+
   <script src="js/foundation/foundation.reveal.js"></script>
-  
+
   <script src="js/foundation/foundation.tooltips.js"></script>
-  
+
   <script src="js/foundation/foundation.clearing.js"></script>
-  
+
   <script src="js/foundation/foundation.cookie.js"></script>
-  
+
   <script src="js/foundation/foundation.joyride.js"></script>
-  
+
   <script src="js/foundation/foundation.orbit.js"></script>
-  
+
   <script src="js/foundation/foundation.section.js"></script>
-  
+
   <script src="js/foundation/foundation.topbar.js"></script>
-  
+
   -->
   
   <script>
     $(document).foundation();
   </script>
-  </div>
 </body>
 </html>
